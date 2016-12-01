@@ -42,8 +42,8 @@ description = [
           'unhosted</a> web applications.  The idea is to uncouple web '
           'applications from data.  No matter where a web application is '
           'served from, the data can be stored on an unhosted storage '
-          'server of user\'s choice.  With reStore, your {box_name} becomes '
-          'your unhosted storage server.'), box_name=_(cfg.box_name)),
+          'server of user\'s choice.  With reStore, your {project_name} becomes '
+          'your unhosted storage server.'), project_name=_(cfg.project_name)),
 
     _('You can create and edit accounts in the '
       '<a href=\'/restore/\'>reStore web-interface</a>.')

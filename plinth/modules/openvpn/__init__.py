@@ -45,10 +45,10 @@ description = [
         _('Virtual Private Network (VPN) is a technique for securely '
           'connecting two devices in order to access resources of a '
           'private network.  While you are away from home, you can connect '
-          'to your {box_name} in order to join your home network and '
-          'access private/internal services provided by {box_name}. '
-          'You can also access the rest of the Internet via {box_name} '
-          'for added security and anonymity.'), box_name=_(cfg.box_name))
+          'to your {project_name} in order to join your home network and '
+          'access private/internal services provided by {project_name}. '
+          'You can also access the rest of the Internet via {project_name} '
+          'for added security and anonymity.'), project_name=_(cfg.project_name))
 ]
 
 

@@ -47,11 +47,11 @@
   <meta name="slurp" content="noindex, nofollow, noarchive, noodp, noydir" />
   <meta name="description"
         content="{% blocktrans trimmed %}
-                   Plinth administrative interface for the {{ box_name }}
+                   Plinth administrative interface for the {{ project_name }}
                  {% endblocktrans %}" />
   {% block title %}
     <title>
-      {% if title %} {{ title }} {% else %} {{ box_name }} {% endif %}
+      {% if title %} {{ title }} {% else %} {{ project_name }} {% endif %}
     </title>
   {% endblock %}
 
@@ -88,9 +88,9 @@
         </button>
         {% block mainmenu_left %}
           <a href="{% url 'index' %}"  class="navbar-brand"
-             title="{{ box_name }}">
+             title="{{ project_name }}">
             <img src="{% static 'theme/img/freedombox-logo-32px.png' %}"
-                 alt="{{ box_name }}" />
+                 alt="{{ project_name }}" />
           </a>
           {% if user.is_authenticated %}
             <a href="{% url 'apps:index' %}" class="navbar-brand"

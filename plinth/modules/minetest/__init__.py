@@ -46,9 +46,9 @@ description = [
     format_lazy(
         _('Minetest is a multiplayer infinite-world block sandbox. This '
           'module enables the Minetest server to be run on this '
-          '{box_name}, on the default port (30000). To connect to the server, '
+          '{project_name}, on the default port (30000). To connect to the server, '
           'a <a href="http://www.minetest.net/downloads/">Minetest client</a> '
-          'is needed.'), box_name=_(cfg.box_name)),
+          'is needed.'), project_name=_(cfg.project_name)),
 ]
 
 

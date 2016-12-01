@@ -47,8 +47,8 @@ description = [
           'and sharing of scheduling and contact data. To use Radicale, a '
           '<a href="http://radicale.org/user_documentation/'
           '#idcaldav-and-carddav-clients"> supported client application</a> '
-          'is needed. Radicale can be accessed by any user with a {box_name} '
-          'login.'), box_name=_(cfg.box_name)),
+          'is needed. Radicale can be accessed by any user with a {project_name} '
+          'login.'), project_name=_(cfg.project_name)),
 ]
 
 CONFIG_FILE = '/etc/radicale/config'

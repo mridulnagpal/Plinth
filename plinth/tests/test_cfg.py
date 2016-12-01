@@ -151,4 +151,4 @@ class TestCfg(unittest.TestCase):
         self.assertEqual(3, len(parser.items('Misc')))
         self.assertEqual(parser.get('Misc', 'danube_edition'),
                          str(cfg.danube_edition))
-        self.assertEqual(parser.get('Misc', 'box_name'), cfg.box_name)
+        self.assertEqual(parser.get('Misc', 'project_name'), cfg.project_name)

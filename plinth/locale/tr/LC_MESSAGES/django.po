@@ -86,10 +86,10 @@ msgstr "Servisler ve Uygulamalar"
 #, python-format
 msgid ""
 "You can install and run various services and applications on your "
-"%(box_name)s. Click on any app page link on the left to read a description "
+"%(project_name)s. Click on any app page link on the left to read a description "
 "of the application and choose to install it."
 msgstr ""
-"%(box_name)s kutunuza çeşitli servis ve uygulamalar kurup "
+"%(project_name)s kutunuza çeşitli servis ve uygulamalar kurup "
 "çalıştırabilirsiniz. Herhangi bir uygulamanın açıklamasını okuyup onu "
 "kurmayı seçmek için sol taraftaki uygulama sayfası bağlantısına tıklayın."
 
@@ -113,14 +113,14 @@ msgstr "Servis Keşfi"
 #, python-brace-format
 msgid ""
 "Service discovery allows other devices on the network to discover your "
-"{box_name} and services running on it.  It also allows {box_name} to "
+"{project_name} and services running on it.  It also allows {project_name} to "
 "discover other devices and services running on your local network.  Service "
 "discovery is not essential and works only on internal networks.  It may be "
 "disabled to improve security especially when connecting to a hostile local "
 "network."
 msgstr ""
-"Servis keşfi şebekedeki diğer makinelerin sizin {box_name} kutunuzu ve onun "
-"üzerinde çalışan servisleri keşfetmelerine yarar. Buna ek olarak {box_name} "
+"Servis keşfi şebekedeki diğer makinelerin sizin {project_name} kutunuzu ve onun "
+"üzerinde çalışan servisleri keşfetmelerine yarar. Buna ek olarak {project_name} "
 "kutusunun yerel ağınızdaki diğer makineleri ve etkin servisleri keşfetmesine "
 "de yarar. Servis keşfi mutlaka gerekli değildir ve sadece dahili şebekelerde "
 "çalışır. Özellikle düşman bir yerel ağa bağlanıldığında güvenliği arttırmak "
@@ -139,11 +139,11 @@ msgstr "Makine ismi"
 #, python-brace-format
 msgid ""
 "Hostname is the local name by which other devices on the local network can "
-"reach your {box_name}.  It must start and end with an alphabet or a digit "
+"reach your {project_name}.  It must start and end with an alphabet or a digit "
 "and have as interior characters only alphabets, digits and hyphens.  Total "
 "length must be 63 characters or less."
 msgstr ""
-"Makine ismi yerel şebekedeki diğer cihazların sizin {box_name} kutunuza "
+"Makine ismi yerel şebekedeki diğer cihazların sizin {project_name} kutunuza "
 "erişmebilmek için kullanacakları yerel isimdir. Bir harf ya da sayı ile "
 "başlayıp sona ermesi gerekir ve sadece alfabe harfleri, sayılar ve tireler "
 "içerebilir. Toplam uzunluğun 63 karakter veya daha azı olması gerekmektedir."
@@ -162,13 +162,13 @@ msgstr "Alan Adı"
 #, python-brace-format
 msgid ""
 "Domain name is the global name by which other devices on the Internet can "
-"reach your {box_name}.  It must consist of labels separated by dots.  Each "
+"reach your {project_name}.  It must consist of labels separated by dots.  Each "
 "label must start and end with an alphabet or a digit and have as interior "
 "characters only alphabets, digits and hyphens.  Length of each label must be "
 "63 characters or less.  Total length of domain name must be 253 characters "
 "or less."
 msgstr ""
-"Alan adı, İnternet'teki diğer cihazların sizin {box_name} kutunuza erişmek "
+"Alan adı, İnternet'teki diğer cihazların sizin {project_name} kutunuza erişmek "
 "için kullanacakları global isimdir. Noktalarla ayrılmış gruplardan "
 "oluşmalıdır. Her grubun bir alfabe harfi ya da bir sayı ile başlaması ve "
 "sona ermesi gerekir ve içerik harfler, sayılar ve tireler ile sınırlı "
@@ -442,11 +442,11 @@ msgstr "Dinamik DNS istemcisi"
 msgid ""
 "If your Internet provider changes your IP address periodically (i.e. every "
 "24h), it may be hard for others to find you on the Internet. This will "
-"prevent others from finding services which are provided by this {box_name}."
+"prevent others from finding services which are provided by this {project_name}."
 msgstr ""
 "Eğer İnternet erişim sağlayıcınız IP adresinizi periyodik bir şekilde "
 "(mesela her 24 saatte bir) değiştiriyorsa diğer kişiler sizi ağda bulmakta "
-"zorlanabilir. Ve bu sebeple kimse sizin ownCloud'unuz gibi {box_name} "
+"zorlanabilir. Ve bu sebeple kimse sizin ownCloud'unuz gibi {project_name} "
 "tarafından sunulan servisleri bulamayabilir."
 
 #: plinth/modules/dynamicdns/__init__.py:43
@@ -509,9 +509,9 @@ msgstr ""
 
 #: plinth/modules/dynamicdns/dynamicdns.py:76
 #, python-brace-format
-msgid "The public domain name you want to use to reach your {box_name}."
+msgid "The public domain name you want to use to reach your {project_name}."
 msgstr ""
-"{box_name} kutunuza erişilmesi için kullanmak istediğiniz herkese açık alan "
+"{project_name} kutunuza erişilmesi için kullanmak istediğiniz herkese açık alan "
 "ismi."
 
 #: plinth/modules/dynamicdns/dynamicdns.py:79
@@ -534,12 +534,12 @@ msgstr "Güncel parolanızı tutmak istiyorsanız bu alanı boş bırakın."
 #: plinth/modules/dynamicdns/dynamicdns.py:88
 #, python-brace-format
 msgid ""
-"Optional Value. If your {box_name} is not connected directly to the Internet "
+"Optional Value. If your {project_name} is not connected directly to the Internet "
 "(i.e. connected to a NAT router) this URL is used to determine the real IP "
 "address. The URL should simply return the IP where the client comes from "
 "(example: http://myip.datasystems24.de)."
 msgstr ""
-"Seçeneğe bağlı değer. {box_name} kutunuz İnternet'e doğrudan bağlı değilse "
+"Seçeneğe bağlı değer. {project_name} kutunuz İnternet'e doğrudan bağlı değilse "
 "(yani bir NAT yönlendiricisine bağlıysa) bu URL gerçek İnternet IP adresini "
 "belirlemek için kullanılır. URL sadece istemcinin bulunduğu yerin IP'sini "
 "vermelidir (mesela: http://myip.datasystems24.de)."
@@ -641,11 +641,11 @@ msgstr ""
 #: plinth/modules/dynamicdns/templates/dynamicdns.html:42
 #, python-format
 msgid ""
-"If your %(box_name)s is connected behind a NAT router, don't forget to add "
+"If your %(project_name)s is connected behind a NAT router, don't forget to add "
 "port forwarding for standard ports, including TCP port 80 (HTTP) and TCP "
 "port 443 (HTTPS)."
 msgstr ""
-"Eğer %(box_name)s kutunuz bir NAT yönlendiriciye bağlıysa, 80 numaralı TCP "
+"Eğer %(project_name)s kutunuz bir NAT yönlendiriciye bağlıysa, 80 numaralı TCP "
 "portu (HTTP) ve 443 numaralı TCP portu (HTTPS) dahil olmak üzere port "
 "yönlendirme eklemeyi unutmayınız."
 
@@ -708,10 +708,10 @@ msgstr "Güvenlik Duvarı"
 #, python-brace-format
 msgid ""
 "Firewall is a security system that controls the incoming and outgoing "
-"network traffic on your {box_name}. Keeping a firewall enabled and properly "
+"network traffic on your {project_name}. Keeping a firewall enabled and properly "
 "configured reduces risk of security threat from the Internet."
 msgstr ""
-"Güvenlik duvarı {box_name} kutunuzda içeri gelen ve dışarı giden şebeke "
+"Güvenlik duvarı {project_name} kutunuzda içeri gelen ve dışarı giden şebeke "
 "trafiğini kontrol eden bir güvenlik sistemidir. Güvenlik duvarını "
 "etkinleştirip gerektiği gibi yapılandırmak İnternet'ten gelen güvenlik "
 "tehditlerini azaltır."
@@ -724,13 +724,13 @@ msgstr "Güncel durum:"
 #, python-format
 msgid ""
 "Firewall daemon is not running. Please run it. Firewall comes enabled by "
-"default on %(box_name)s. On any Debian based system (such as %(box_name)s) "
+"default on %(project_name)s. On any Debian based system (such as %(project_name)s) "
 "you may run it using the command 'service firewalld start' or in case of a "
 "system with systemd 'systemctl start firewalld'."
 msgstr ""
 "Güvenlik duvarı servisi çalışmamaktadır. Lütfen çalıştırın. Güvenlik duvarı "
-"%(box_name)s kutusunda varsayılan değer olarak etkindir. Debian temelli "
-"herhangi bir sistemde (%(box_name)s gibi) güvenlik duvarını 'service "
+"%(project_name)s kutusunda varsayılan değer olarak etkindir. Debian temelli "
+"herhangi bir sistemde (%(project_name)s gibi) güvenlik duvarını 'service "
 "firewalld start' komutunu çalıştırarak ya da systemd bulunan bir sistemde "
 "'systemctl start firewalld' komutunu çalıştırarak etkinleştirebilirsiniz."
 
@@ -803,8 +803,8 @@ msgstr "Kullanıcı hesabı oluşturuldu, artık giriş yaptınız"
 
 #: plinth/modules/first_boot/forms.py:129
 #, python-brace-format
-msgid "The voucher you received with your {box_name} Danube Edition"
-msgstr "{box_name} kutunuzun Danube sürümü ile aldığınız fiş"
+msgid "The voucher you received with your {project_name} Danube Edition"
+msgstr "{project_name} kutunuzun Danube sürümü ile aldığınız fiş"
 
 #: plinth/modules/first_boot/forms.py:134
 msgid "Subdomain"
@@ -845,10 +845,10 @@ msgstr "Kuruluma Başla"
 #: plinth/modules/first_boot/templates/firstboot_state0.html:45
 #, python-format
 msgid ""
-"To complete the setup of your %(box_name)s, please provide some basic "
+"To complete the setup of your %(project_name)s, please provide some basic "
 "information."
 msgstr ""
-"%(box_name)s kutunuzun kurulumunu tamamlamak için lütfen bazı temel "
+"%(project_name)s kutunuzun kurulumunu tamamlamak için lütfen bazı temel "
 "bilgileri belirtin."
 
 #: plinth/modules/first_boot/templates/firstboot_state1.html:29
@@ -876,11 +876,11 @@ msgstr "Yapılandırma Tamamlandı!"
 #: plinth/modules/first_boot/templates/firstboot_state10.html:32
 #, python-format
 msgid ""
-"%(box_name)s setup is now complete.  To make your %(box_name)s functional, "
+"%(project_name)s setup is now complete.  To make your %(project_name)s functional, "
 "you need some applications.  They will be installed the first time you "
 "access them."
 msgstr ""
-"%(box_name)s kurulumu artık tamamlanmıştır. %(box_name)s kutunuzu işlevsel "
+"%(project_name)s kurulumu artık tamamlanmıştır. %(project_name)s kutunuzu işlevsel "
 "hale getirmek için bazı uygulamalara ihtiyacınız vardır. Uygulamalar onlara "
 "ilk kez eriştiğinizde kurulacaktır."
 
@@ -963,18 +963,18 @@ msgstr "Belgelendirme ve SSS"
 
 #: plinth/modules/help/help.py:54
 #, python-brace-format
-msgid "About {box_name}"
-msgstr "{box_name} hakkında"
+msgid "About {project_name}"
+msgstr "{project_name} hakkında"
 
 #: plinth/modules/help/help.py:72
 #, python-brace-format
-msgid "{box_name} Manual"
-msgstr "{box_name} Kılavuzu"
+msgid "{project_name} Manual"
+msgstr "{project_name} Kılavuzu"
 
 #: plinth/modules/help/templates/help_about.html:30
 #, python-format
 msgid ""
-"%(box_name)s is a community project to develop, design and promote personal "
+"%(project_name)s is a community project to develop, design and promote personal "
 "servers running free software for private, personal communications.  It is a "
 "networking appliance designed to allow interfacing with the rest of the "
 "Internet under conditions of protected privacy and data security.  It hosts "
@@ -982,7 +982,7 @@ msgid ""
 "and a Tor relay, on a device that can replace your Wi-Fi router, so that "
 "your data stays with you."
 msgstr ""
-"%(box_name)s, özel iletişimler için özgür yazılım çalıştıran kişisel "
+"%(project_name)s, özel iletişimler için özgür yazılım çalıştıran kişisel "
 "sunucular tasarlayan, geliştiren ve kullanımını teşvik eden bir topluluk "
 "projesidir. Veri güvenliğini ve gizliliği koruyan şartlarda İnternet'e "
 "bağlantıda arayüz görevi görecek bir ağ cihazıdır. Verilerinizin sizinle "
@@ -1010,21 +1010,21 @@ msgstr ""
 #, python-format
 msgid ""
 "There are a number of projects working to realize a future of distributed "
-"services; %(box_name)s aims to bring them all together in a convenient "
+"services; %(project_name)s aims to bring them all together in a convenient "
 "package."
 msgstr ""
 "Eşten eşe, dağıtılmış servisler geleceği için çalışan çeşitli projeler "
-"bulunmaktadır: %(box_name)s kutusunun amacı onların tümünü kişisel bir "
+"bulunmaktadır: %(project_name)s kutusunun amacı onların tümünü kişisel bir "
 "sunucuda bir araya getirmektir."
 
 #: plinth/modules/help/templates/help_about.html:64
 #, python-format
 msgid ""
-"For more information about the %(box_name)s project, see the <a href="
-"\"https://wiki.debian.org/FreedomBox\">%(box_name)s Wiki</a>."
+"For more information about the %(project_name)s project, see the <a href="
+"\"https://wiki.debian.org/FreedomBox\">%(project_name)s Wiki</a>."
 msgstr ""
-"%(box_name)s projesi hakkında daha fazla bilgi için <a href=\"https://wiki."
-"debian.org/FreedomBox\">%(box_name)s Vikisini</a> okuyunuz."
+"%(project_name)s projesi hakkında daha fazla bilgi için <a href=\"https://wiki."
+"debian.org/FreedomBox\">%(project_name)s Vikisini</a> okuyunuz."
 
 #: plinth/modules/help/templates/help_about.html:73
 msgid "Learn more &raquo;"
@@ -1037,36 +1037,36 @@ msgstr "Plinth yazılımının %(version)s sürümünü kullanıyorsunuz."
 
 #: plinth/modules/help/templates/help_base.html:36
 #, python-format
-msgid "%(box_name)s Setup"
-msgstr "%(box_name)s Kurulumu"
+msgid "%(project_name)s Setup"
+msgstr "%(project_name)s Kurulumu"
 
 #: plinth/modules/help/templates/help_index.html:29
 #, python-format
 msgid ""
-"The <a href=\"%(manual_url)s\">%(box_name)s Manual</a> is the best place to "
-"start for information regarding %(box_name)s."
+"The <a href=\"%(manual_url)s\">%(project_name)s Manual</a> is the best place to "
+"start for information regarding %(project_name)s."
 msgstr ""
-"%(box_name)s. hakkında daha fazla bilgi edinmeye başlamak için en uygun yer "
-"<a href=\"%(manual_url)s\">%(box_name)s Kullanım Kılavuzudur</a>."
+"%(project_name)s. hakkında daha fazla bilgi edinmeye başlamak için en uygun yer "
+"<a href=\"%(manual_url)s\">%(project_name)s Kullanım Kılavuzudur</a>."
 
 #: plinth/modules/help/templates/help_index.html:36
 #, python-format
 msgid ""
 "<a href=\"http://wiki.debian.org/FreedomBox\" target=\"_blank\"> "
-"%(box_name)s project wiki </a> contains further information."
+"%(project_name)s project wiki </a> contains further information."
 msgstr ""
 "<a href=\"http://wiki.debian.org/FreedomBox\" target=\"_blank\"> "
-"%(box_name)s proje vikisi </a> daha fazla bilgi içerir."
+"%(project_name)s proje vikisi </a> daha fazla bilgi içerir."
 
 #: plinth/modules/help/templates/help_index.html:43
 #, python-format
 msgid ""
-"To seek help from %(box_name)s community, queries may be posted on the <a "
+"To seek help from %(project_name)s community, queries may be posted on the <a "
 "href=\"https://lists.alioth.debian.org/mailman/listinfo/freedombox-discuss"
 "\"> mailing list</a>.  The list archives also contain information about "
 "problems faced by other users and possible solutions."
 msgstr ""
-"%(box_name)s topluluğundan yardım istiyorsanız, sorularınızı <a href="
+"%(project_name)s topluluğundan yardım istiyorsanız, sorularınızı <a href="
 "\"https://lists.alioth.debian.org/mailman/listinfo/freedombox-discuss\"> e-"
 "posta listesine </a> yollayabilirsiniz.  Liste arşivleri diğer "
 "kullanıcıların karşılaştıkları sorunlar ve mümkün çözümler hakkında da bilgi "
@@ -1075,12 +1075,12 @@ msgstr ""
 #: plinth/modules/help/templates/help_index.html:53
 #, python-format
 msgid ""
-"Many %(box_name)s contributors and users are also available on the irc.oftc."
+"Many %(project_name)s contributors and users are also available on the irc.oftc."
 "net IRC network.  Join and request help on the <a href=\"https://webchat."
 "oftc.net/?randomnick=1&channels=freedombox&prompt=1\"> #freedombox</a> "
 "channel using the IRC web interface."
 msgstr ""
-"Birçok %(box_name)s iştirakçisi ve kullancısı irc.oftc.net IRC ağında da "
+"Birçok %(project_name)s iştirakçisi ve kullancısı irc.oftc.net IRC ağında da "
 "bulunabilir. IRC web arayüzünü kullanarak <a href=\"https://webchat.oftc."
 "net/?randomnick=1&channels=freedombox&prompt=1\"> #freedombox</a> kanalına "
 "katılın ve yardım talebinde bulunun."
@@ -1260,20 +1260,20 @@ msgstr "Sertifikalar (Let's Encrypt)"
 #, python-brace-format
 #| msgid ""
 #| "A digital certficate allows users of a web service to verify the identity "
-#| "of the service and to securely communicate with it. {box_name} can "
+#| "of the service and to securely communicate with it. {project_name} can "
 #| "automatically obtain and setup digital certificates for each available "
 #| "domain.  It does so by proving itself to be the owner of a domain to "
 #| "Let's Encrypt, a certficate authority (CA)."
 msgid ""
 "A digital certificate allows users of a web service to verify the identity "
-"of the service and to securely communicate with it. {box_name} can "
+"of the service and to securely communicate with it. {project_name} can "
 "automatically obtain and setup digital certificates for each available "
 "domain.  It does so by proving itself to be the owner of a domain to Let's "
 "Encrypt, a certificate authority (CA)."
 msgstr ""
 "Sayısal sertifikalar kullanıcıların ağ servislerinin kimliklerini "
 "doğrulamalarına ve onlarla güvenli bir şekilde iletişim kurmalarına imkân "
-"verir. {box_name} otomatik olarak her mevcut alan için sayısal sertifika "
+"verir. {project_name} otomatik olarak her mevcut alan için sayısal sertifika "
 "edinebilir ve bunları kurabilir. Bunu kendisinin bir alanın sahibi olduğunu "
 "bir sertifika otoritesi (Certificate Authority, CA) olan Let's Encrypt'e "
 "ispatlayarak yapar."
@@ -1358,12 +1358,12 @@ msgstr "Blok Kum Havuzu (Minetest)"
 #, python-brace-format
 msgid ""
 "Minetest is a multiplayer infinite-world block sandbox. This module enables "
-"the Minetest server to be run on this {box_name}, on the default port "
+"the Minetest server to be run on this {project_name}, on the default port "
 "(30000). To connect to the server, a <a href=\"http://www.minetest.net/"
 "downloads/\">Minetest client</a> is needed."
 msgstr ""
 "Minetest, çoklu kullanıcılı sonsuz dünya blok kum havuzudur. Bu modül "
-"Minetest sunucusunu bu {box_name} kutusunda varsayılan portta (30000) "
+"Minetest sunucusunu bu {project_name} kutusunda varsayılan portta (30000) "
 "etkinleştirir. Sunucuya bağlanmak için bir <a href=\"http://www.minetest.net/"
 "downloads/\"> Minetest istemcisi</a> gereklidir."
 
@@ -1632,12 +1632,12 @@ msgstr "IPv4 Adresleme Metodu"
 #: plinth/modules/networks/forms.py:54
 #, python-brace-format
 msgid ""
-"\"Automatic\" method will make {box_name} acquire configuration from this "
-"network making it a client. \"Shared\" method will make {box_name} act as a "
+"\"Automatic\" method will make {project_name} acquire configuration from this "
+"network making it a client. \"Shared\" method will make {project_name} act as a "
 "router, configure clients on this network and share its Internet connection."
 msgstr ""
-"\"Otomatik\" metodu {box_name} kutusunun yapılandırmasını bu ağdan almasını "
-"sağlayacak ve onu bir istemci yapacaktır. \"Paylaşılan\" metodu  {box_name} "
+"\"Otomatik\" metodu {project_name} kutusunun yapılandırmasını bu ağdan almasını "
+"sağlayacak ve onu bir istemci yapacaktır. \"Paylaşılan\" metodu  {project_name} "
 "kutusunun bir yönlendirici olarak iş görmesini, bu ağdaki istemcileri "
 "yapılandırmasını ve İnternet bağlantısını paylaşmasını sağlayacaktır."
 
@@ -2061,13 +2061,13 @@ msgstr ""
 #: plinth/modules/networks/templates/connection_show.html:319
 #, python-format
 msgid ""
-"This interface is not maintained by %(box_name)s.  Its security status is "
-"unknown to %(box_name)s.  Many %(box_name)s services may not be available on "
+"This interface is not maintained by %(project_name)s.  Its security status is "
+"unknown to %(project_name)s.  Many %(project_name)s services may not be available on "
 "this interface.  It is recommended that you deactivate or delete this "
 "connection and re-configure it."
 msgstr ""
-"Bu arayüzün bakımı %(box_name)s tarafından yapılmaz. Güvenlik durumu "
-"%(box_name)s tarafından bilinmemektedir. Birçok %(box_name)s servisi bu "
+"Bu arayüzün bakımı %(project_name)s tarafından yapılmaz. Güvenlik durumu "
+"%(project_name)s tarafından bilinmemektedir. Birçok %(project_name)s servisi bu "
 "arayüzde mevcut olmayabilir. Bu bağlantıyı devre dışı bırakmanız/silmeniz ve "
 "yeniden yapılandırmanız tavsiye edilir."
 
@@ -2142,17 +2142,17 @@ msgstr "Sanal Özel Şebeke (OpenVPN)"
 msgid ""
 "Virtual Private Network (VPN) is a technique for securely connecting two "
 "devices in order to access resources of a private network.  While you are "
-"away from home, you can connect to your {box_name} in order to join your "
-"home network and access private/internal services provided by {box_name}. "
-"You can also access the rest of the Internet via {box_name} for added "
+"away from home, you can connect to your {project_name} in order to join your "
+"home network and access private/internal services provided by {project_name}. "
+"You can also access the rest of the Internet via {project_name} for added "
 "security and anonymity."
 msgstr ""
 "Sanal Özel Ağ (Virtual Private Network, VPN), özel bir ağın kaynaklarına "
 "erişmek için iki cihaz arasında güvenli bir şekilde bağlantı kurmak için "
 "kullanılan tekniktir. Evinizden uzaktayken ev ağınıza erişmek için "
-"{box_name} kutusuna bağlanıp {box_name} tarafından sunulan özel/dahili "
+"{project_name} kutusuna bağlanıp {project_name} tarafından sunulan özel/dahili "
 "servisleri kullanabilirsiniz. Aynı zamanda ek güvenlik ve anonimlik için "
-"İnternet'in geri kalanına {box_name} vasıtasıyla erişebilirsiniz."
+"İnternet'in geri kalanına {project_name} vasıtasıyla erişebilirsiniz."
 
 #: plinth/modules/openvpn/forms.py:29
 msgid "Enable OpenVPN server"
@@ -2165,25 +2165,25 @@ msgstr "Profil"
 #: plinth/modules/openvpn/templates/openvpn.html:40
 #, python-format
 msgid ""
-"To connect to %(box_name)s's VPN, you need to download a profile and feed it "
+"To connect to %(project_name)s's VPN, you need to download a profile and feed it "
 "to an OpenVPN client on your mobile or desktop machine.  OpenVPN Clients are "
 "available for most platforms.  See <a href=\"https://wiki.debian.org/"
-"FreedomBox/Manual/OpenVPN\" title=\"%(box_name)s Manual - OpenVPN"
+"FreedomBox/Manual/OpenVPN\" title=\"%(project_name)s Manual - OpenVPN"
 "\">documentation</a> on recommended clients and instructions on how to "
 "configure them."
 msgstr ""
-"%(box_name)s kutusunun VPN'ine erişmek için bir profil indirmeniz ve bunu "
+"%(project_name)s kutusunun VPN'ine erişmek için bir profil indirmeniz ve bunu "
 "mobil ya da masaüstü makinenize yüklemeniz gerekir. OpenVPN istemcileri "
 "platformların çoğu için mevcuttur. Tavsiye edilen istemciler ve onları "
 "yapılandırma talimatları için <a href=\"https://wiki.debian.org/FreedomBox/"
-"Manual/OpenVPN\" title=\"%(box_name)s Manual - OpenVPN\">belgelendirmeyi</a> "
+"Manual/OpenVPN\" title=\"%(project_name)s Manual - OpenVPN\">belgelendirmeyi</a> "
 "okuyun."
 
 #: plinth/modules/openvpn/templates/openvpn.html:52
 #, python-format
-msgid "Profile is specific to each user of %(box_name)s.  Keep it a secret."
+msgid "Profile is specific to each user of %(project_name)s.  Keep it a secret."
 msgstr ""
-"Profil, %(box_name)s kutusunun her kullanıcısı için özeldir. Onun "
+"Profil, %(project_name)s kutusunun her kullanıcısı için özeldir. Onun "
 "gizliliğini koruyun."
 
 #: plinth/modules/openvpn/templates/openvpn.html:62
@@ -2194,11 +2194,11 @@ msgstr "Profilimi indir"
 #, python-format
 msgid ""
 "OpenVPN has not yet been setup.  Performing a secure setup takes a very long "
-"time.  Depending on how fast your %(box_name)s is, it may even take hours.  "
+"time.  Depending on how fast your %(project_name)s is, it may even take hours.  "
 "If the setup is interrupted, you may start it again."
 msgstr ""
 "OpenVPN kurulumu henüz yapılmamıştır. Güvenli kurulum yapmak çok uzun bir "
-"süre alır. %(box_name)s kutunuzun hızına bağlı olarak saatler sürmesi bile "
+"süre alır. %(project_name)s kutunuzun hızına bağlı olarak saatler sürmesi bile "
 "mümkündür. Eğer kurulum kesilirse, tekrar başlatabilirsiniz."
 
 #: plinth/modules/openvpn/templates/openvpn.html:83
@@ -2213,10 +2213,10 @@ msgstr "OpenVPN kurulumu çalışmaktadır"
 #, python-format
 msgid ""
 "To perform a secure setup, this process takes a very long time.  Depending "
-"on how fast your %(box_name)s is, it may even take hours.  If the setup is "
+"on how fast your %(project_name)s is, it may even take hours.  If the setup is "
 "interrupted, you may start it again."
 msgstr ""
-"Güvenli kurulum yapmak çok uzun bir süre alır. %(box_name)s kutunuzun hızına "
+"Güvenli kurulum yapmak çok uzun bir süre alır. %(project_name)s kutunuzun hızına "
 "bağlı olarak saatler sürmesi bile mümkündür. Eğer kurulum kesilirse, tekrar "
 "başlatabilirsiniz."
 
@@ -2281,11 +2281,11 @@ msgstr ""
 #: plinth/modules/owncloud/templates/owncloud.html:30
 #, python-format
 msgid ""
-"ownCloud is no longer supported by %(box_name)s due it's removal from "
+"ownCloud is no longer supported by %(project_name)s due it's removal from "
 "Debian.  Please migrate your data to an alternative solution or manage "
 "ownCloud manually from the command line."
 msgstr ""
-"ownCloud Debian'dan kaldırıldığı için bundan böyle %(box_name)s tarafından "
+"ownCloud Debian'dan kaldırıldığı için bundan böyle %(project_name)s tarafından "
 "desteklenmektedir. Lütfen verilerinizi alternatif bir çözüme taşıyınız ya da "
 "ownCloud'u elle komut satırından yönetiniz."
 
@@ -2300,25 +2300,25 @@ msgstr "Herkese Açık Görünülürlük (PageKite)"
 #: plinth/modules/pagekite/__init__.py:38
 #, python-brace-format
 msgid ""
-"PageKite is a system for exposing {box_name} services when you don't have a "
-"direct connection to the Internet. You only need this if your {box_name} "
+"PageKite is a system for exposing {project_name} services when you don't have a "
+"direct connection to the Internet. You only need this if your {project_name} "
 "services are unreachable from the rest of the Internet. This includes the "
 "following situations:"
 msgstr ""
-"PageKite {box_name} servislerine İnternet'e doğrudan bağlantınız olmadığında "
-"erişmek için bir sistemdir. Buna sadece {box_name} servislerine İnternet'ten "
+"PageKite {project_name} servislerine İnternet'e doğrudan bağlantınız olmadığında "
+"erişmek için bir sistemdir. Buna sadece {project_name} servislerine İnternet'ten "
 "erişmek mümkün değilse ihtiyaç duyarsınız. Bu, şu durumları kapsar:"
 
 #: plinth/modules/pagekite/__init__.py:45
 #, python-brace-format
-msgid "{box_name} is behind a restricted firewall."
-msgstr "{box_name} kısıtlı bir güvenlik duvarının arkasında olduğunda."
+msgid "{project_name} is behind a restricted firewall."
+msgstr "{project_name} kısıtlı bir güvenlik duvarının arkasında olduğunda."
 
 #: plinth/modules/pagekite/__init__.py:49
 #, python-brace-format
-msgid "{box_name} is connected to a (wireless) router which you don't control."
+msgid "{project_name} is connected to a (wireless) router which you don't control."
 msgstr ""
-"{box_name} kontrolünüzde olmayan bir (kablosuz) yönlendiriciye bağlı "
+"{project_name} kontrolünüzde olmayan bir (kablosuz) yönlendiriciye bağlı "
 "olduğunda."
 
 #: plinth/modules/pagekite/__init__.py:52
@@ -2347,13 +2347,13 @@ msgid ""
 "PageKite works around NAT, firewalls and IP-address limitations by using a "
 "combination of tunnels and reverse proxies. You can use any pagekite service "
 "provider, for example <a href=\"https://pagekite.net\">pagekite.net</a>.  In "
-"future it might be possible to use your buddy's {box_name} for this."
+"future it might be possible to use your buddy's {project_name} for this."
 msgstr ""
 "PageKite NAT, güvenlik duvarları ve IP adresi sınırlamalarına rağmen tünel "
 "ve ters vekil sunucular birleşimini kullanarak işleyebilir. Herhangi bir "
 "pagekite servis sağlayıcısını kullanabilirsiniz, örneğin <a href=\"https://"
 "pagekite.net\">pagekite.net</a>. Gelecekte bunun için arkadaşlarınızın "
-"{box_name} kutusunu kullanmanız mümkün olacaktır."
+"{project_name} kutusunu kullanmanız mümkün olacaktır."
 
 #: plinth/modules/pagekite/forms.py:46
 msgid "Enable PageKite"
@@ -2635,12 +2635,12 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "You can use Privoxy by modifying your browser proxy settings to your "
-"{box_name} hostname (or IP address) with port 8118. While using Privoxy, you "
+"{project_name} hostname (or IP address) with port 8118. While using Privoxy, you "
 "can see its configuration details and documentation at <a href=\"http://"
 "config.privoxy.org\">http://config.privoxy.org/</a> or <a href=\"http://p.p"
 "\">http://p.p</a>."
 msgstr ""
-"Privoxy'yi tarayıcınızın vekil sunucu ayarlarını {box_name} kutunuzun makine "
+"Privoxy'yi tarayıcınızın vekil sunucu ayarlarını {project_name} kutunuzun makine "
 "ismine (ya da IP adresine) 8118 numaralı port ile ayarlayarak "
 "kullanabilirsiniz. Privoxy'yi kullanırken belgelendirmesini ve yapılandırma "
 "ayrıntılarını <a href=\"http://config.privoxy.org\">http://config.privoxy."
@@ -2662,14 +2662,14 @@ msgid ""
 "Quassel is an IRC application that is split into two parts, a \"core\" and a "
 "\"client\". This allows the core to remain connected to IRC servers, and to "
 "continue receiving messages, even when the client is disconnected. "
-"{box_name} can run the Quassel core service keeping you always online and "
+"{project_name} can run the Quassel core service keeping you always online and "
 "one or more Quassel clients from a desktop or a mobile can be used to "
 "connect and disconnect from it."
 msgstr ""
 "Quassel, \"çekirdek\" ve \"istemci\" olarak ikiye ayrılmış bir IRC "
 "uygulamasıdır. Bu, istemcinin çevrimdışı olduğu zamanda bile çekirdeğin IRC "
 "sunucularına bağlı kalmasına ve mesajları almaya devam etmesine imkân verir. "
-"{box_name} Quassel çekirdek servisini daima çevrimiçinde tutabilir ve bir ya "
+"{project_name} Quassel çekirdek servisini daima çevrimiçinde tutabilir ve bir ya "
 "da daha fazla Quassel istemcileri masaüstünden ya da mobil telefondan ona "
 "bağlanmak ve ondan bağlantıyı kesmek için kullanılabilir."
 
@@ -2696,13 +2696,13 @@ msgid ""
 "sharing of scheduling and contact data. To use Radicale, a <a href=\"http://"
 "radicale.org/user_documentation/#idcaldav-and-carddav-clients\"> supported "
 "client application</a> is needed. Radicale can be accessed by any user with "
-"a {box_name} login."
+"a {project_name} login."
 msgstr ""
 "Radicale, bir CalDAV ve CardDAV sunucusudur. İletişim ve randevu verilerinin "
 "paylaşılmasına ve eşleştirilmesine imkân verir. Radicale'i kullanmak için "
 "desteklenen bir <a href=\"http://radicale.org/user_documentation/#idcaldav-"
 "and-carddav-clients\">istemci uygulama</a> gereklidir. Radicale'e erişim "
-"{box_name} girişi olan herhangi bir kullanıcı tarafından yapılabilir."
+"{project_name} girişi olan herhangi bir kullanıcı tarafından yapılabilir."
 
 #: plinth/modules/radicale/forms.py:28
 msgid "Only the owner of a calendar/addressbook can view or make changes."
@@ -2783,14 +2783,14 @@ msgid ""
 "reStore is a server for <a href='https://unhosted.org/'>unhosted</a> web "
 "applications.  The idea is to uncouple web applications from data.  No "
 "matter where a web application is served from, the data can be stored on an "
-"unhosted storage server of user's choice.  With reStore, your {box_name} "
+"unhosted storage server of user's choice.  With reStore, your {project_name} "
 "becomes your unhosted storage server."
 msgstr ""
 "reStore, <a href='https://unhosted.org/'>barındırılmayan</a> (unhosted) ağ "
 "uygulamaları için bir sunucudur. Öne çıkan fikir, ağ uygulamalarının "
 "verilerden ayrılmasıdır. Ağ uygulamalarının nereden sunulduğuna bakmaksızın "
 "veriler kullanıcının seçtiği herhangi bir barındırılmayan depolama "
-"sunucusunda depolanabilir. reStore ile {box_name} kutunuz barındırılmayan "
+"sunucusunda depolanabilir. reStore ile {project_name} kutunuz barındırılmayan "
 "depolama sunucunuz haline gelir."
 
 #: plinth/modules/restore/__init__.py:48
@@ -3015,15 +3015,15 @@ msgstr "Sistem Yapılandırması"
 
 #: plinth/modules/system/__init__.py:36
 #, python-brace-format
-msgid "Here you can administrate the underlying system of your {box_name}."
-msgstr "Burada {box_name} kutunuzun temel sistemini yönetebilirsiniz."
+msgid "Here you can administrate the underlying system of your {project_name}."
+msgstr "Burada {project_name} kutunuzun temel sistemini yönetebilirsiniz."
 
 #: plinth/modules/system/__init__.py:40
 #, python-brace-format
 msgid ""
-"The options affect the {box_name} at its most general level, so be careful!"
+"The options affect the {project_name} at its most general level, so be careful!"
 msgstr ""
-"Seçenekler {box_name} kutusunu en genel düzeyde etkiler, bu nedenle dikkatli "
+"Seçenekler {project_name} kutusunu en genel düzeyde etkiler, bu nedenle dikkatli "
 "olun!"
 
 #: plinth/modules/tor/__init__.py:42
@@ -3089,11 +3089,11 @@ msgstr "Tor aktarımını etkinleştir"
 #: plinth/modules/tor/forms.py:38
 #, python-brace-format
 msgid ""
-"When enabled, your {box_name} will run a Tor relay and donate bandwidth to "
+"When enabled, your {project_name} will run a Tor relay and donate bandwidth to "
 "the Tor network. Do this if you have more than 2 megabits/s of upload and "
 "download bandwidth."
 msgstr ""
-"Etkinleştirildiğinde, {box_name} bir Tor aktarıcısı çalıştıracak ve Tor "
+"Etkinleştirildiğinde, {project_name} bir Tor aktarıcısı çalıştıracak ve Tor "
 "şebekesine bant genişliği bağışlayacaktır. Bunu, saniyede 2 megabitten fazla "
 "indirme ve gönderme bant genişliğiniz varsa yapınız."
 
@@ -3119,11 +3119,11 @@ msgstr "Tor Gizli Servisi Etkinleştir"
 #: plinth/modules/tor/forms.py:54
 #, python-brace-format
 msgid ""
-"A hidden service will allow {box_name} to provide selected services (such as "
+"A hidden service will allow {project_name} to provide selected services (such as "
 "wiki or chat) without revealing its location. Do not use this for strong "
 "anonymity yet."
 msgstr ""
-"Gizli servisler {box_name} kutusunun (viki ya da sohbet gibi) seçili "
+"Gizli servisler {project_name} kutusunun (viki ya da sohbet gibi) seçili "
 "servisleri konumunu ortaya çıkarmadan sağlamasına imkân verir. Güçlü "
 "anonimlik için henüz kullanmayın."
 
@@ -3168,10 +3168,10 @@ msgstr "Aktarıcı"
 #: plinth/modules/tor/templates/tor.html:99
 #, python-format
 msgid ""
-"If your %(box_name)s is behind a router or firewall, you should make sure "
+"If your %(project_name)s is behind a router or firewall, you should make sure "
 "the following ports are open, and port-forwarded, if necessary:"
 msgstr ""
-"Eğer %(box_name)s bir yönlendirici ya da güvenlik duvarı arkasındaysa ve "
+"Eğer %(project_name)s bir yönlendirici ya da güvenlik duvarı arkasındaysa ve "
 "gerekiyorsa aşağıdaki bağlantı noktalarının (port) açık ve yönlendirilmiş "
 "olduğundan emin olun:"
 
@@ -3185,9 +3185,9 @@ msgstr "SOCKS"
 
 #: plinth/modules/tor/templates/tor.html:130
 #, python-format
-msgid "A Tor SOCKS port is available on your %(box_name)s on TCP port 9050."
+msgid "A Tor SOCKS port is available on your %(project_name)s on TCP port 9050."
 msgstr ""
-"Bir Tor SOCKS bağlantı noktası %(box_name)s kutunuzda TCP 9050 numaralı "
+"Bir Tor SOCKS bağlantı noktası %(project_name)s kutunuzda TCP 9050 numaralı "
 "portta mevcuttur."
 
 #: plinth/modules/tor/views.py:66
@@ -3608,8 +3608,8 @@ msgstr "Güvenli Kabuk (SSH) Sunucusu"
 
 #: plinth/service.py:123
 #, python-brace-format
-msgid "{box_name} Web Interface (Plinth)"
-msgstr "{box_name} Ağ Arayüzü (Plinth)"
+msgid "{project_name} Web Interface (Plinth)"
+msgstr "{project_name} Ağ Arayüzü (Plinth)"
 
 #: plinth/templates/404.html:25
 msgid "404"
@@ -3655,8 +3655,8 @@ msgstr ""
 
 #: plinth/templates/base.html:49
 #, python-format
-msgid "Plinth administrative interface for the %(box_name)s"
-msgstr "%(box_name)s için Plinth yönetim arayüzü"
+msgid "Plinth administrative interface for the %(project_name)s"
+msgstr "%(project_name)s için Plinth yönetim arayüzü"
 
 #: plinth/templates/base.html:84
 msgid "Toggle navigation"
@@ -3687,17 +3687,17 @@ msgstr ""
 #: plinth/templates/index.html:80
 #, python-format
 #| msgid "Delete %(name)s"
-msgid "Welcome to %(box_name)s!"
-msgstr "%(box_name)s kutusuna hoş geldiniz!"
+msgid "Welcome to %(project_name)s!"
+msgstr "%(project_name)s kutusuna hoş geldiniz!"
 
 #: plinth/templates/index.html:86
 #, python-format
 msgid ""
-"%(box_name)s, a Debian pure blend, is a 100%% free software self-hosting web "
+"%(project_name)s, a Debian pure blend, is a 100%% free software self-hosting web "
 "server to deploy social applications on small machines. It provides online "
 "communication tools respecting your privacy and data ownership."
 msgstr ""
-"%(box_name)s, arı bir Debian sürümüdür ve sosyal uygulamaları küçük "
+"%(project_name)s, arı bir Debian sürümüdür ve sosyal uygulamaları küçük "
 "makinelere kurmak için %%100 özgür yazılım olan kendi kendini barındıran web "
 "sunucusudur. Veri sahipliğinize ve gizliliğinize saygı gösteren çevrimiçi "
 "iletişim araçları sunar."
@@ -3705,25 +3705,25 @@ msgstr ""
 #: plinth/templates/index.html:95
 #, python-format
 #| msgid ""
-#| "For more information about the %(box_name)s project, see the <a href="
-#| "\"https://wiki.debian.org/FreedomBox\">%(box_name)s Wiki</a>."
+#| "For more information about the %(project_name)s project, see the <a href="
+#| "\"https://wiki.debian.org/FreedomBox\">%(project_name)s Wiki</a>."
 msgid ""
-"More info about %(box_name)s is available on the project <a href=\"https://"
+"More info about %(project_name)s is available on the project <a href=\"https://"
 "freedombox.org\">homepage</a> and <a href=\"https://wiki.debian.org/"
 "FreedomBox\">wiki</a>."
 msgstr ""
-"%(box_name)s projesi hakkında daha fazla bilgi proje <a href=\""
+"%(project_name)s projesi hakkında daha fazla bilgi proje <a href=\""
 "https://freedombox.org\">ana sayfasında</a> ve <a href=\""
-"https://wiki.debian.org/FreedomBox\">%(box_name)s vikisinde</a> mevcuttur."
+"https://wiki.debian.org/FreedomBox\">%(project_name)s vikisinde</a> mevcuttur."
 
 #: plinth/templates/index.html:103
 #, python-format
 msgid ""
-"This portal is a part of Plinth, the %(box_name)s web interface. Plinth is "
+"This portal is a part of Plinth, the %(project_name)s web interface. Plinth is "
 "free software, distributed under the GNU Affero General Public License, "
 "Version 3 or later."
 msgstr ""
-"Bu portal %(box_name)s kutusunun ağ arayüzü olan Plinth'in bir parçasıdır. "
+"Bu portal %(project_name)s kutusunun ağ arayüzü olan Plinth'in bir parçasıdır. "
 "Plinth özgür yazılımdır ve GNU Affero Genel Kamu Lisansının 3. ya da daha "
 "sonraki sürümleri kapsamında yayınlanmıştır."
 

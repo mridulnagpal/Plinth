@@ -87,10 +87,10 @@ msgstr "Servicios y aplicaciones"
 #, python-format
 msgid ""
 "You can install and run various services and applications on your "
-"%(box_name)s. Click on any app page link on the left to read a description "
+"%(project_name)s. Click on any app page link on the left to read a description "
 "of the application and choose to install it."
 msgstr ""
-"Puede instalar y ejecutar distintos servicios en su %(box_name)s. Haga clic "
+"Puede instalar y ejecutar distintos servicios en su %(project_name)s. Haga clic "
 "en los enlaces del panel izquierdo para obtener una descripción de la "
 "aplicación y decidir si la instala."
 
@@ -115,15 +115,15 @@ msgstr "Detección de servicios"
 #, python-brace-format
 msgid ""
 "Service discovery allows other devices on the network to discover your "
-"{box_name} and services running on it.  It also allows {box_name} to "
+"{project_name} and services running on it.  It also allows {project_name} to "
 "discover other devices and services running on your local network.  Service "
 "discovery is not essential and works only on internal networks.  It may be "
 "disabled to improve security especially when connecting to a hostile local "
 "network."
 msgstr ""
 "La detección de servicios permite a otros dispositivos de la red detectar su "
-"{box_name} y los servicios que ejecuta, al tiempo que permite a su "
-"{box_name} detectar otros dispositivos y servicios en su red local. Funciona "
+"{project_name} y los servicios que ejecuta, al tiempo que permite a su "
+"{project_name} detectar otros dispositivos y servicios en su red local. Funciona "
 "solo en la red local y no es un servicio indispensable, puede ser "
 "desactivado para incrementar la seguridad, especialmente cuando se conecta a "
 "redes locales inseguras o de poca confianza."
@@ -141,11 +141,11 @@ msgstr "Nombre de anfitrión"
 #, python-brace-format
 msgid ""
 "Hostname is the local name by which other devices on the local network can "
-"reach your {box_name}.  It must start and end with an alphabet or a digit "
+"reach your {project_name}.  It must start and end with an alphabet or a digit "
 "and have as interior characters only alphabets, digits and hyphens.  Total "
 "length must be 63 characters or less."
 msgstr ""
-"El nombre de anfitrión es el nombre por el que su {box_name} puede ser "
+"El nombre de anfitrión es el nombre por el que su {project_name} puede ser "
 "identificado en la red local. Debe empezar y terminar por una letra o un "
 "número y solo puede contener letras, números y guiones. Su longitud puede "
 "ser de hasta 63 caracteres."
@@ -164,14 +164,14 @@ msgstr "Nombre de dominio"
 #, python-brace-format
 msgid ""
 "Domain name is the global name by which other devices on the Internet can "
-"reach your {box_name}.  It must consist of labels separated by dots.  Each "
+"reach your {project_name}.  It must consist of labels separated by dots.  Each "
 "label must start and end with an alphabet or a digit and have as interior "
 "characters only alphabets, digits and hyphens.  Length of each label must be "
 "63 characters or less.  Total length of domain name must be 253 characters "
 "or less."
 msgstr ""
 "El nombre de dominio el el nombre global por el que otros dispositivos "
-"pueden identificar su {box_name} en Internet. Se compone de varias palabras "
+"pueden identificar su {project_name} en Internet. Se compone de varias palabras "
 "separadas por puntos, de tal forma que cada palabra debe empezar y terminar "
 "por una letra o un número y puede contener solo letras, números o guiones. "
 "La longitud de cada palabra puede ser de hasta 63 caracteres y la del nombre "
@@ -440,11 +440,11 @@ msgstr "Cliente de DNS dinámico"
 msgid ""
 "If your Internet provider changes your IP address periodically (i.e. every "
 "24h), it may be hard for others to find you on the Internet. This will "
-"prevent others from finding services which are provided by this {box_name}."
+"prevent others from finding services which are provided by this {project_name}."
 msgstr ""
 "Si su proveedor de Internet cambia su dirección IP periódicamente (p.e. cada "
 "24h) será muy difícil para los demás encontrarle en Internet. Esto permitirá "
-"a otros encontrar los servicios que ofrece {box_name}."
+"a otros encontrar los servicios que ofrece {project_name}."
 
 #: plinth/modules/dynamicdns/__init__.py:43
 msgid ""
@@ -506,10 +506,10 @@ msgstr ""
 
 #: plinth/modules/dynamicdns/dynamicdns.py:76
 #, python-brace-format
-msgid "The public domain name you want to use to reach your {box_name}."
+msgid "The public domain name you want to use to reach your {project_name}."
 msgstr ""
 "Nombre de dominio público que quiere usar para para identificar su "
-"{box_name}."
+"{project_name}."
 
 #: plinth/modules/dynamicdns/dynamicdns.py:79
 msgid "Use this option if your provider uses self signed certificates."
@@ -530,12 +530,12 @@ msgstr "Deje vacío este campo si quiere conservar su clave actual."
 #: plinth/modules/dynamicdns/dynamicdns.py:88
 #, python-brace-format
 msgid ""
-"Optional Value. If your {box_name} is not connected directly to the Internet "
+"Optional Value. If your {project_name} is not connected directly to the Internet "
 "(i.e. connected to a NAT router) this URL is used to determine the real IP "
 "address. The URL should simply return the IP where the client comes from "
 "(example: http://myip.datasystems24.de)."
 msgstr ""
-"Valor opcional. Si su {box_name} no está conectado directamente a Internet "
+"Valor opcional. Si su {project_name} no está conectado directamente a Internet "
 "(p.e. está conectado a un router NAT), esta URL se usará para obtener su "
 "número IP real. La URL debería devolver simplemente el número IP del cliente "
 "(p.e. http://myip.datasystems24.de)."
@@ -639,11 +639,11 @@ msgstr ""
 #: plinth/modules/dynamicdns/templates/dynamicdns.html:42
 #, python-format
 msgid ""
-"If your %(box_name)s is connected behind a NAT router, don't forget to add "
+"If your %(project_name)s is connected behind a NAT router, don't forget to add "
 "port forwarding for standard ports, including TCP port 80 (HTTP) and TCP "
 "port 443 (HTTPS)."
 msgstr ""
-"Si su %(box_name)s está conectada a través de un router NAT, no olvide "
+"Si su %(project_name)s está conectada a través de un router NAT, no olvide "
 "configurar el redireccionamiento para los puertos estándar, incluyendo el "
 "puerto 80 TCP (HTTP) y el puerto 443 TCP (HTTPS)."
 
@@ -707,11 +707,11 @@ msgstr "Firewall"
 #, python-brace-format
 msgid ""
 "Firewall is a security system that controls the incoming and outgoing "
-"network traffic on your {box_name}. Keeping a firewall enabled and properly "
+"network traffic on your {project_name}. Keeping a firewall enabled and properly "
 "configured reduces risk of security threat from the Internet."
 msgstr ""
 "Un firewall es un sistema que controla el tráfico de red entrante y saliente "
-"de su {box_name}. Mantenerlo activado y correctamente configurado reduce el "
+"de su {project_name}. Mantenerlo activado y correctamente configurado reduce el "
 "riesgo de amenazas de seguridad desde Internet."
 
 #: plinth/modules/firewall/templates/firewall.html:25
@@ -722,13 +722,13 @@ msgstr "Estado actual:"
 #, python-format
 msgid ""
 "Firewall daemon is not running. Please run it. Firewall comes enabled by "
-"default on %(box_name)s. On any Debian based system (such as %(box_name)s) "
+"default on %(project_name)s. On any Debian based system (such as %(project_name)s) "
 "you may run it using the command 'service firewalld start' or in case of a "
 "system with systemd 'systemctl start firewalld'."
 msgstr ""
 "El servicio firewall no se está ejecutando. Por favor actívelo. El firewall "
-"viene activado por defecto en su %(box_name)s. En cualquier sistema basado "
-"en Debian (como %(box_name)s) puede activarlo con 'service firewalld start' "
+"viene activado por defecto en su %(project_name)s. En cualquier sistema basado "
+"en Debian (como %(project_name)s) puede activarlo con 'service firewalld start' "
 "o si su sistema emplea systemd 'systemctl start firewalld'."
 
 #: plinth/modules/firewall/templates/firewall.html:45
@@ -800,8 +800,8 @@ msgstr "Creada cuenta de usuario, ya está usted en el sistema"
 
 #: plinth/modules/first_boot/forms.py:129
 #, python-brace-format
-msgid "The voucher you received with your {box_name} Danube Edition"
-msgstr "El cupón que recibió con su {box_name} Danube Edition"
+msgid "The voucher you received with your {project_name} Danube Edition"
+msgstr "El cupón que recibió con su {project_name} Danube Edition"
 
 #: plinth/modules/first_boot/forms.py:134
 msgid "Subdomain"
@@ -842,10 +842,10 @@ msgstr "Iniciar configuración"
 #: plinth/modules/first_boot/templates/firstboot_state0.html:45
 #, python-format
 msgid ""
-"To complete the setup of your %(box_name)s, please provide some basic "
+"To complete the setup of your %(project_name)s, please provide some basic "
 "information."
 msgstr ""
-"Para completar la configuración de su %(box_name)s, por favor facilite "
+"Para completar la configuración de su %(project_name)s, por favor facilite "
 "alguna información básica."
 
 #: plinth/modules/first_boot/templates/firstboot_state1.html:29
@@ -873,12 +873,12 @@ msgstr "¡Configuración completada!"
 #: plinth/modules/first_boot/templates/firstboot_state10.html:32
 #, python-format
 msgid ""
-"%(box_name)s setup is now complete.  To make your %(box_name)s functional, "
+"%(project_name)s setup is now complete.  To make your %(project_name)s functional, "
 "you need some applications.  They will be installed the first time you "
 "access them."
 msgstr ""
-"La configuración de su %(box_name)s ya está completa. Para que su "
-"%(box_name)s sea funcional necesitará algunas aplicaciones, que serán "
+"La configuración de su %(project_name)s ya está completa. Para que su "
+"%(project_name)s sea funcional necesitará algunas aplicaciones, que serán "
 "instaladas la primera vez que acceda a ellas."
 
 #: plinth/modules/first_boot/templates/firstboot_state10.html:41
@@ -960,18 +960,18 @@ msgstr "Documentación y Preguntas frecuentes"
 
 #: plinth/modules/help/help.py:54
 #, python-brace-format
-msgid "About {box_name}"
-msgstr "Acerca de {box_name}"
+msgid "About {project_name}"
+msgstr "Acerca de {project_name}"
 
 #: plinth/modules/help/help.py:72
 #, python-brace-format
-msgid "{box_name} Manual"
-msgstr "Manual de {box_name}"
+msgid "{project_name} Manual"
+msgstr "Manual de {project_name}"
 
 #: plinth/modules/help/templates/help_about.html:30
 #, python-format
 msgid ""
-"%(box_name)s is a community project to develop, design and promote personal "
+"%(project_name)s is a community project to develop, design and promote personal "
 "servers running free software for private, personal communications.  It is a "
 "networking appliance designed to allow interfacing with the rest of the "
 "Internet under conditions of protected privacy and data security.  It hosts "
@@ -979,7 +979,7 @@ msgid ""
 "and a Tor relay, on a device that can replace your Wi-Fi router, so that "
 "your data stays with you."
 msgstr ""
-"%(box_name)s es un proyecto comunitario para diseñar, desarrollar y promover "
+"%(project_name)s es un proyecto comunitario para diseñar, desarrollar y promover "
 "el uso de servidores personales basados en software libre para la "
 "comunicación personal privada. Es un dispositivo de red diseñado para "
 "conectarse a Internet bajo condiciones de seguridad y protección de la "
@@ -1008,21 +1008,21 @@ msgstr ""
 #, python-format
 msgid ""
 "There are a number of projects working to realize a future of distributed "
-"services; %(box_name)s aims to bring them all together in a convenient "
+"services; %(project_name)s aims to bring them all together in a convenient "
 "package."
 msgstr ""
 "Hay una serie de distintos proyectos trabajando en un futuro de servicios "
-"distribuidos. %(box_name)s trata de ofrecerlos juntos y convenientemente "
+"distribuidos. %(project_name)s trata de ofrecerlos juntos y convenientemente "
 "empaquetados."
 
 #: plinth/modules/help/templates/help_about.html:64
 #, python-format
 msgid ""
-"For more information about the %(box_name)s project, see the <a href="
-"\"https://wiki.debian.org/FreedomBox\">%(box_name)s Wiki</a>."
+"For more information about the %(project_name)s project, see the <a href="
+"\"https://wiki.debian.org/FreedomBox\">%(project_name)s Wiki</a>."
 msgstr ""
-"Para ampliar información sobre el proyecto %(box_name)s, consulte la <a href="
-"\"https://wiki.debian.org/FreedomBox\">Wiki de %(box_name)s</a>."
+"Para ampliar información sobre el proyecto %(project_name)s, consulte la <a href="
+"\"https://wiki.debian.org/FreedomBox\">Wiki de %(project_name)s</a>."
 
 #: plinth/modules/help/templates/help_about.html:73
 msgid "Learn more &raquo;"
@@ -1035,36 +1035,36 @@ msgstr "Está ejecutando Plinth versión %(version)s."
 
 #: plinth/modules/help/templates/help_base.html:36
 #, python-format
-msgid "%(box_name)s Setup"
-msgstr "Configuración de %(box_name)s"
+msgid "%(project_name)s Setup"
+msgstr "Configuración de %(project_name)s"
 
 #: plinth/modules/help/templates/help_index.html:29
 #, python-format
 msgid ""
-"The <a href=\"%(manual_url)s\">%(box_name)s Manual</a> is the best place to "
-"start for information regarding %(box_name)s."
+"The <a href=\"%(manual_url)s\">%(project_name)s Manual</a> is the best place to "
+"start for information regarding %(project_name)s."
 msgstr ""
-"El <a href=\"%(manual_url)s\">Manual de %(box_name)s</a> es el mejor punto "
-"de partida para conocer su %(box_name)s."
+"El <a href=\"%(manual_url)s\">Manual de %(project_name)s</a> es el mejor punto "
+"de partida para conocer su %(project_name)s."
 
 #: plinth/modules/help/templates/help_index.html:36
 #, python-format
 msgid ""
 "<a href=\"http://wiki.debian.org/FreedomBox\" target=\"_blank\"> "
-"%(box_name)s project wiki </a> contains further information."
+"%(project_name)s project wiki </a> contains further information."
 msgstr ""
 "La <a href=\"http://wiki.debian.org/FreedomBox\" target=\"_blank\">Wiki del "
-"proyecto %(box_name)s</a> contiene información adicional."
+"proyecto %(project_name)s</a> contiene información adicional."
 
 #: plinth/modules/help/templates/help_index.html:43
 #, python-format
 msgid ""
-"To seek help from %(box_name)s community, queries may be posted on the <a "
+"To seek help from %(project_name)s community, queries may be posted on the <a "
 "href=\"https://lists.alioth.debian.org/mailman/listinfo/freedombox-discuss"
 "\"> mailing list</a>.  The list archives also contain information about "
 "problems faced by other users and possible solutions."
 msgstr ""
-"Para obtener ayuda de la comunidad %(box_name)s, las preguntas deben "
+"Para obtener ayuda de la comunidad %(project_name)s, las preguntas deben "
 "enviarse a la <a href=\"https://lists.alioth.debian.org/mailman/listinfo/"
 "freedombox-discuss\">Lista de correo</a>. Esta lista también archiva "
 "información sobre problemas y posibles soluciones de otros usuarios."
@@ -1072,12 +1072,12 @@ msgstr ""
 #: plinth/modules/help/templates/help_index.html:53
 #, python-format
 msgid ""
-"Many %(box_name)s contributors and users are also available on the irc.oftc."
+"Many %(project_name)s contributors and users are also available on the irc.oftc."
 "net IRC network.  Join and request help on the <a href=\"https://webchat."
 "oftc.net/?randomnick=1&channels=freedombox&prompt=1\"> #freedombox</a> "
 "channel using the IRC web interface."
 msgstr ""
-"Muchos de los participantes y usuarios del proyecto %(box_name)s están "
+"Muchos de los participantes y usuarios del proyecto %(project_name)s están "
 "disponibles en la red IRC  irc.oftc.net. Únase y solicite ayuda en el canal  "
 "<a href=\"https://webchat.oftc.net/?"
 "randomnick=1&channels=freedombox&prompt=1\">#freedombox</a> con la interfaz "
@@ -1247,13 +1247,13 @@ msgstr "Certificados (Let's Encrypt)"
 #, python-brace-format
 msgid ""
 "A digital certificate allows users of a web service to verify the identity "
-"of the service and to securely communicate with it. {box_name} can "
+"of the service and to securely communicate with it. {project_name} can "
 "automatically obtain and setup digital certificates for each available "
 "domain.  It does so by proving itself to be the owner of a domain to Let's "
 "Encrypt, a certificate authority (CA)."
 msgstr ""
 "Un certificado digital permite a los usuarios de un servicio web verificar "
-"la identidad del servicio y comunicar con él de forma segura. {box_name} "
+"la identidad del servicio y comunicar con él de forma segura. {project_name} "
 "puede obtener y configurar automáticamente un certificado digital para cada "
 "dominio disponible. Lo hace mostrándose a sí mismo como propietario de un "
 "dominio a Let's Encrypt, autoridad de certificación (CA)."
@@ -1336,12 +1336,12 @@ msgstr "Sandbox de bloques (Minetest)"
 #, python-brace-format
 msgid ""
 "Minetest is a multiplayer infinite-world block sandbox. This module enables "
-"the Minetest server to be run on this {box_name}, on the default port "
+"the Minetest server to be run on this {project_name}, on the default port "
 "(30000). To connect to the server, a <a href=\"http://www.minetest.net/"
 "downloads/\">Minetest client</a> is needed."
 msgstr ""
 "Minetest es un juego sandbox de bloques de mundo infinito y multijugador. "
-"Este módulo activa el servidor Minetest en su {box_name}, en el puerto por "
+"Este módulo activa el servidor Minetest en su {project_name}, en el puerto por "
 "defecto (30000). Para acceder al servidor necesitará un <a href=\"http://www."
 "minetest.net/downloads/\">Cliente Minetest</a>."
 
@@ -1609,13 +1609,13 @@ msgstr "Direccionamiento IPv4"
 #: plinth/modules/networks/forms.py:54
 #, python-brace-format
 msgid ""
-"\"Automatic\" method will make {box_name} acquire configuration from this "
-"network making it a client. \"Shared\" method will make {box_name} act as a "
+"\"Automatic\" method will make {project_name} acquire configuration from this "
+"network making it a client. \"Shared\" method will make {project_name} act as a "
 "router, configure clients on this network and share its Internet connection."
 msgstr ""
-"El método \"automático\" hará que {box_name} solicite su configuración a la "
+"El método \"automático\" hará que {project_name} solicite su configuración a la "
 "red y actúe como cualquier otro cliente. El método \"compartido\" hará que "
-"{box_name} se comporte como un router, configure los clientes de esta red y "
+"{project_name} se comporte como un router, configure los clientes de esta red y "
 "comparta su conexión a Internet."
 
 #: plinth/modules/networks/forms.py:59
@@ -2036,13 +2036,13 @@ msgstr ""
 #: plinth/modules/networks/templates/connection_show.html:319
 #, python-format
 msgid ""
-"This interface is not maintained by %(box_name)s.  Its security status is "
-"unknown to %(box_name)s.  Many %(box_name)s services may not be available on "
+"This interface is not maintained by %(project_name)s.  Its security status is "
+"unknown to %(project_name)s.  Many %(project_name)s services may not be available on "
 "this interface.  It is recommended that you deactivate or delete this "
 "connection and re-configure it."
 msgstr ""
-"%(box_name)s no gestiona esta interfaz y su estado de protección es "
-"desconocido. Muchos servicios de %(box_name)s no estarán disponibles en esta "
+"%(project_name)s no gestiona esta interfaz y su estado de protección es "
+"desconocido. Muchos servicios de %(project_name)s no estarán disponibles en esta "
 "interfaz. Se recomienda que desactive o elimine esta conexión y la configure "
 "de nuevo."
 
@@ -2117,16 +2117,16 @@ msgstr "Red privada virtual (OpenVPN)"
 msgid ""
 "Virtual Private Network (VPN) is a technique for securely connecting two "
 "devices in order to access resources of a private network.  While you are "
-"away from home, you can connect to your {box_name} in order to join your "
-"home network and access private/internal services provided by {box_name}. "
-"You can also access the rest of the Internet via {box_name} for added "
+"away from home, you can connect to your {project_name} in order to join your "
+"home network and access private/internal services provided by {project_name}. "
+"You can also access the rest of the Internet via {project_name} for added "
 "security and anonymity."
 msgstr ""
 "Una red privada virtual (VPN, Virtual Private Network) es una tecnología que "
 "permite conectar de forma segura dos dispositivos para acceder de forma "
 "protegida a una red privada. Al estar lejos de casa puede conectarse a su "
-"{box_name} para acceder a su red local y a los servicios de {box_name} de "
-"forma privada. También puede acceder a Internet a través de su {box_name} "
+"{project_name} para acceder a su red local y a los servicios de {project_name} de "
+"forma privada. También puede acceder a Internet a través de su {project_name} "
 "para añadir protección y anonimato."
 
 #: plinth/modules/openvpn/forms.py:29
@@ -2140,25 +2140,25 @@ msgstr "Perfil"
 #: plinth/modules/openvpn/templates/openvpn.html:40
 #, python-format
 msgid ""
-"To connect to %(box_name)s's VPN, you need to download a profile and feed it "
+"To connect to %(project_name)s's VPN, you need to download a profile and feed it "
 "to an OpenVPN client on your mobile or desktop machine.  OpenVPN Clients are "
 "available for most platforms.  See <a href=\"https://wiki.debian.org/"
-"FreedomBox/Manual/OpenVPN\" title=\"%(box_name)s Manual - OpenVPN"
+"FreedomBox/Manual/OpenVPN\" title=\"%(project_name)s Manual - OpenVPN"
 "\">documentation</a> on recommended clients and instructions on how to "
 "configure them."
 msgstr ""
-"Para conectar a la VPN de %(box_name)s necesita descargar un perfil y "
+"Para conectar a la VPN de %(project_name)s necesita descargar un perfil y "
 "añadirlo a un cliente OpenVPN en su ordenador de escritorio o móvil. Hay "
 "clientes OpenVPN para la mayoría de las plataformas. Consulte la <a href="
-"\"https://wiki.debian.org/FreedomBox/Manual/OpenVPN\" title=\"%(box_name)s "
+"\"https://wiki.debian.org/FreedomBox/Manual/OpenVPN\" title=\"%(project_name)s "
 "Manual - OpenVPN\">documentación</a> sobre clientes disponibles y cómo "
 "configurarlos."
 
 #: plinth/modules/openvpn/templates/openvpn.html:52
 #, python-format
-msgid "Profile is specific to each user of %(box_name)s.  Keep it a secret."
+msgid "Profile is specific to each user of %(project_name)s.  Keep it a secret."
 msgstr ""
-"El perfil es específico de cada usuario de %(box_name)s. Manténgalo en "
+"El perfil es específico de cada usuario de %(project_name)s. Manténgalo en "
 "secreto."
 
 #: plinth/modules/openvpn/templates/openvpn.html:62
@@ -2169,11 +2169,11 @@ msgstr "Descargar mi perfil"
 #, python-format
 msgid ""
 "OpenVPN has not yet been setup.  Performing a secure setup takes a very long "
-"time.  Depending on how fast your %(box_name)s is, it may even take hours.  "
+"time.  Depending on how fast your %(project_name)s is, it may even take hours.  "
 "If the setup is interrupted, you may start it again."
 msgstr ""
 "OpenVPN no está configurado aún. Realizar una configuración segura toma "
-"bastante tiempo. En función de cómo de rápida sea su %(box_name)s, puede "
+"bastante tiempo. En función de cómo de rápida sea su %(project_name)s, puede "
 "llevar incluso horas terminarla. Si la configuración se interrumpe debería "
 "empezarla de nevo."
 
@@ -2189,11 +2189,11 @@ msgstr "Se está ejecutando la configuración de OpenVPN"
 #, python-format
 msgid ""
 "To perform a secure setup, this process takes a very long time.  Depending "
-"on how fast your %(box_name)s is, it may even take hours.  If the setup is "
+"on how fast your %(project_name)s is, it may even take hours.  If the setup is "
 "interrupted, you may start it again."
 msgstr ""
 "Realizar una configuración segura necesita bastante tiempo. Dependiendo de "
-"cómo de rápida sea su %(box_name)s puede necesitar incluso horas. Si la "
+"cómo de rápida sea su %(project_name)s puede necesitar incluso horas. Si la "
 "configuración se interrumpe debería empezarla de nuevo."
 
 #: plinth/modules/openvpn/templates/openvpn.html:107
@@ -2257,12 +2257,12 @@ msgstr ""
 #: plinth/modules/owncloud/templates/owncloud.html:30
 #, python-format
 msgid ""
-"ownCloud is no longer supported by %(box_name)s due it's removal from "
+"ownCloud is no longer supported by %(project_name)s due it's removal from "
 "Debian.  Please migrate your data to an alternative solution or manage "
 "ownCloud manually from the command line."
 msgstr ""
 "ownCloud ha sido retirado de Debian y por tanto ya no es soportado por "
-"%(box_name)s. Por favor, migre sus datos a una opción alternativa o gestione "
+"%(project_name)s. Por favor, migre sus datos a una opción alternativa o gestione "
 "ownCloud manualmente en el terminal de consola."
 
 #: plinth/modules/owncloud/templates/owncloud.html:47
@@ -2276,26 +2276,26 @@ msgstr "Visibilidad pública (PageKite)"
 #: plinth/modules/pagekite/__init__.py:38
 #, python-brace-format
 msgid ""
-"PageKite is a system for exposing {box_name} services when you don't have a "
-"direct connection to the Internet. You only need this if your {box_name} "
+"PageKite is a system for exposing {project_name} services when you don't have a "
+"direct connection to the Internet. You only need this if your {project_name} "
 "services are unreachable from the rest of the Internet. This includes the "
 "following situations:"
 msgstr ""
-"PageKite es un sistema para hacer visibles los servicios de {box_name} "
+"PageKite es un sistema para hacer visibles los servicios de {project_name} "
 "cuando usted no tiene acceso directo a Internet. Solo lo necesitará si los "
-"servicios de su {box_name} no son accesibles desde Internet. Esto incluye "
+"servicios de su {project_name} no son accesibles desde Internet. Esto incluye "
 "las siguientes situaciones:"
 
 #: plinth/modules/pagekite/__init__.py:45
 #, python-brace-format
-msgid "{box_name} is behind a restricted firewall."
-msgstr "{box_name} está detrás de un firewall restringido."
+msgid "{project_name} is behind a restricted firewall."
+msgstr "{project_name} está detrás de un firewall restringido."
 
 #: plinth/modules/pagekite/__init__.py:49
 #, python-brace-format
-msgid "{box_name} is connected to a (wireless) router which you don't control."
+msgid "{project_name} is connected to a (wireless) router which you don't control."
 msgstr ""
-"{box_name} está conectado a un router (inalámbrico) que usted no controla."
+"{project_name} está conectado a un router (inalámbrico) que usted no controla."
 
 #: plinth/modules/pagekite/__init__.py:52
 msgid ""
@@ -2323,12 +2323,12 @@ msgid ""
 "PageKite works around NAT, firewalls and IP-address limitations by using a "
 "combination of tunnels and reverse proxies. You can use any pagekite service "
 "provider, for example <a href=\"https://pagekite.net\">pagekite.net</a>.  In "
-"future it might be possible to use your buddy's {box_name} for this."
+"future it might be possible to use your buddy's {project_name} for this."
 msgstr ""
 "PageKite evita NAT, firewalls y limitaciones de direcciones IP mediante una "
 "combinación de túneles y proxys inversos. Puede elegir cualquier proveedor "
 "de servicios pagekite, por ejemplo <a href=\"https://pagekite.net\">pagekite."
-"net</a>. En el futuro será posible usar su amigo {box_name} para esto."
+"net</a>. En el futuro será posible usar su amigo {project_name} para esto."
 
 #: plinth/modules/pagekite/forms.py:46
 msgid "Enable PageKite"
@@ -2608,13 +2608,13 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "You can use Privoxy by modifying your browser proxy settings to your "
-"{box_name} hostname (or IP address) with port 8118. While using Privoxy, you "
+"{project_name} hostname (or IP address) with port 8118. While using Privoxy, you "
 "can see its configuration details and documentation at <a href=\"http://"
 "config.privoxy.org\">http://config.privoxy.org/</a> or <a href=\"http://p.p"
 "\">http://p.p</a>."
 msgstr ""
 "Puede usar Privoxy indicando como proxy en su navegador el nombre de "
-"anfitrión de su {box_name} (o la dirección IP) en el puerto 8118. Mientras "
+"anfitrión de su {project_name} (o la dirección IP) en el puerto 8118. Mientras "
 "use Privoxy puede acceder a los detalles de su configuración y a la "
 "documentación  en <a href=\"http://config.privoxy.org\">http://config."
 "privoxy.org/</a> o <a href=\"http://p.p\">http://p.p</a>."
@@ -2634,14 +2634,14 @@ msgid ""
 "Quassel is an IRC application that is split into two parts, a \"core\" and a "
 "\"client\". This allows the core to remain connected to IRC servers, and to "
 "continue receiving messages, even when the client is disconnected. "
-"{box_name} can run the Quassel core service keeping you always online and "
+"{project_name} can run the Quassel core service keeping you always online and "
 "one or more Quassel clients from a desktop or a mobile can be used to "
 "connect and disconnect from it."
 msgstr ""
 "Quassel es una aplicación IRC dividida en dos parte, el servicio y el "
 "cliente. De esta forma el servicio puede permanecer conectado al servidor "
 "IRC y seguir recibiendo mensajes aunque el cliente esté desconectado. "
-"{box_name} puede ejecutar el servicio Quassel manteniéndolo siempre "
+"{project_name} puede ejecutar el servicio Quassel manteniéndolo siempre "
 "conectado de forma que distintos clientes Quassel pueden conectarse y "
 "desconectarse de este servidor desde un ordenador de escritorio o un móvil."
 
@@ -2668,13 +2668,13 @@ msgid ""
 "sharing of scheduling and contact data. To use Radicale, a <a href=\"http://"
 "radicale.org/user_documentation/#idcaldav-and-carddav-clients\"> supported "
 "client application</a> is needed. Radicale can be accessed by any user with "
-"a {box_name} login."
+"a {project_name} login."
 msgstr ""
 "Radicale es un servidor CalDAV y CardDAV que le permite sincronizar y "
 "compartir su calendario y los datos de sus contactos. Para usar Radicale "
 "necesita una <a href=\"http://radicale.org/user_documentation/#idcaldav-and-"
 "carddav-clients\">aplicación cliente soportada</a>. Cualquier usuario "
-"autenticado en {box_name} puede acceder a Radicale."
+"autenticado en {project_name} puede acceder a Radicale."
 
 #: plinth/modules/radicale/forms.py:28
 msgid "Only the owner of a calendar/addressbook can view or make changes."
@@ -2752,14 +2752,14 @@ msgid ""
 "reStore is a server for <a href='https://unhosted.org/'>unhosted</a> web "
 "applications.  The idea is to uncouple web applications from data.  No "
 "matter where a web application is served from, the data can be stored on an "
-"unhosted storage server of user's choice.  With reStore, your {box_name} "
+"unhosted storage server of user's choice.  With reStore, your {project_name} "
 "becomes your unhosted storage server."
 msgstr ""
 "reStore es un servidor de aplicaciones web <a href='https://unhosted."
 "org/'>sin servidor (serverless)</a>. El objetivo es separar la aplicación "
 "web de los datos. No importa desde dónde se sirva la aplicación, los datos "
 "pueden guardarse en un servidor de almacenamiento sin servidor elegido por "
-"el usuario. Con reStore su {box_name} se convierte en un servidor de "
+"el usuario. Con reStore su {project_name} se convierte en un servidor de "
 "almacenamiento sin servidor."
 
 #: plinth/modules/restore/__init__.py:48
@@ -2982,15 +2982,15 @@ msgstr "Configuración del sistema"
 
 #: plinth/modules/system/__init__.py:36
 #, python-brace-format
-msgid "Here you can administrate the underlying system of your {box_name}."
-msgstr "Aquí puede administrar el sistema básico de su {box_name}."
+msgid "Here you can administrate the underlying system of your {project_name}."
+msgstr "Aquí puede administrar el sistema básico de su {project_name}."
 
 #: plinth/modules/system/__init__.py:40
 #, python-brace-format
 msgid ""
-"The options affect the {box_name} at its most general level, so be careful!"
+"The options affect the {project_name} at its most general level, so be careful!"
 msgstr ""
-"Estas opciones afectan a su {box_name} en el nivel más general, así que "
+"Estas opciones afectan a su {project_name} en el nivel más general, así que "
 "¡vaya con cuidado!"
 
 #: plinth/modules/tor/__init__.py:42
@@ -3056,11 +3056,11 @@ msgstr "Activar Tor"
 #: plinth/modules/tor/forms.py:38
 #, python-brace-format
 msgid ""
-"When enabled, your {box_name} will run a Tor relay and donate bandwidth to "
+"When enabled, your {project_name} will run a Tor relay and donate bandwidth to "
 "the Tor network. Do this if you have more than 2 megabits/s of upload and "
 "download bandwidth."
 msgstr ""
-"Cuando se activa, su {box_name} ejecutará un punto de acceso Tor y cederá "
+"Cuando se activa, su {project_name} ejecutará un punto de acceso Tor y cederá "
 "ancho de banda a la red Tor. Actívelo si dispone de más de 2 megabits/s de "
 "ancho de banda para descarga y subida."
 
@@ -3085,11 +3085,11 @@ msgstr "Activar el servicio de ocultación de Tor"
 #: plinth/modules/tor/forms.py:54
 #, python-brace-format
 msgid ""
-"A hidden service will allow {box_name} to provide selected services (such as "
+"A hidden service will allow {project_name} to provide selected services (such as "
 "wiki or chat) without revealing its location. Do not use this for strong "
 "anonymity yet."
 msgstr ""
-"A servicio de ocultación permite a su {box_name} proporcionar determinados "
+"A servicio de ocultación permite a su {project_name} proporcionar determinados "
 "servicios (como wiki o chat) sin revelar su localización. No lo emplee para "
 "un anonimato fuerte."
 
@@ -3134,10 +3134,10 @@ msgstr "Retransmisión"
 #: plinth/modules/tor/templates/tor.html:99
 #, python-format
 msgid ""
-"If your %(box_name)s is behind a router or firewall, you should make sure "
+"If your %(project_name)s is behind a router or firewall, you should make sure "
 "the following ports are open, and port-forwarded, if necessary:"
 msgstr ""
-"Si su %(box_name)s está detrás de un router o un firewall debería asegurarse "
+"Si su %(project_name)s está detrás de un router o un firewall debería asegurarse "
 "de que los siguientes puertos están abiertos, y redireccionados si es "
 "necesario:"
 
@@ -3151,9 +3151,9 @@ msgstr "SOCKS"
 
 #: plinth/modules/tor/templates/tor.html:130
 #, python-format
-msgid "A Tor SOCKS port is available on your %(box_name)s on TCP port 9050."
+msgid "A Tor SOCKS port is available on your %(project_name)s on TCP port 9050."
 msgstr ""
-"Un puerto SOCKS de Tor está disponible en su %(box_name)s en el puerto TCP "
+"Un puerto SOCKS de Tor está disponible en su %(project_name)s en el puerto TCP "
 "9050."
 
 #: plinth/modules/tor/views.py:66
@@ -3567,8 +3567,8 @@ msgstr "Servidor de intérprete de órdenes seguro (SSH)"
 
 #: plinth/service.py:123
 #, python-brace-format
-msgid "{box_name} Web Interface (Plinth)"
-msgstr "Interfaz web (Plinth) de {box_name}"
+msgid "{project_name} Web Interface (Plinth)"
+msgstr "Interfaz web (Plinth) de {project_name}"
 
 #: plinth/templates/404.html:25
 msgid "404"
@@ -3609,8 +3609,8 @@ msgstr ""
 
 #: plinth/templates/base.html:49
 #, python-format
-msgid "Plinth administrative interface for the %(box_name)s"
-msgstr "Interfaz administrativa Plinth para %(box_name)s"
+msgid "Plinth administrative interface for the %(project_name)s"
+msgstr "Interfaz administrativa Plinth para %(project_name)s"
 
 #: plinth/templates/base.html:84
 msgid "Toggle navigation"
@@ -3640,17 +3640,17 @@ msgstr ""
 
 #: plinth/templates/index.html:80
 #, python-format
-msgid "Welcome to %(box_name)s!"
-msgstr "Bienvenido/a a %(box_name)s!"
+msgid "Welcome to %(project_name)s!"
+msgstr "Bienvenido/a a %(project_name)s!"
 
 #: plinth/templates/index.html:86
 #, python-format
 msgid ""
-"%(box_name)s, a Debian pure blend, is a 100%% free software self-hosting web "
+"%(project_name)s, a Debian pure blend, is a 100%% free software self-hosting web "
 "server to deploy social applications on small machines. It provides online "
 "communication tools respecting your privacy and data ownership."
 msgstr ""
-"%(box_name)s, un auténtico Debian, es un servidor web auto hospedado 100%% "
+"%(project_name)s, un auténtico Debian, es un servidor web auto hospedado 100%% "
 "software libre para desplegar aplicaciones sociales en equipos pequeños. "
 "Proporciona herramientas de comunicación online que respetan su privacidad y "
 "la propiedad de sus datos."
@@ -3658,22 +3658,22 @@ msgstr ""
 #: plinth/templates/index.html:95
 #, python-format
 msgid ""
-"More info about %(box_name)s is available on the project <a href=\"https://"
+"More info about %(project_name)s is available on the project <a href=\"https://"
 "freedombox.org\">homepage</a> and <a href=\"https://wiki.debian.org/"
 "FreedomBox\">wiki</a>."
 msgstr ""
-"Tiene más información acerca de %(box_name)s disponible en el <a href=\""
+"Tiene más información acerca de %(project_name)s disponible en el <a href=\""
 "https://freedombox.org\">web del proyecto</a> y en su <a href=\""
 "https://wiki.debian.org/FreedomBox\">wiki</a>."
 
 #: plinth/templates/index.html:103
 #, python-format
 msgid ""
-"This portal is a part of Plinth, the %(box_name)s web interface. Plinth is "
+"This portal is a part of Plinth, the %(project_name)s web interface. Plinth is "
 "free software, distributed under the GNU Affero General Public License, "
 "Version 3 or later."
 msgstr ""
-"Este portal es parte de Plinth, la interfaz web de %(box_name)s. Plinth es "
+"Este portal es parte de Plinth, la interfaz web de %(project_name)s. Plinth es "
 "software libre, distribuido bajo la Licencia Pública General de GNU Affero, "
 "versión 3 o posterior."
 

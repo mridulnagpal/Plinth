@@ -50,11 +50,11 @@ description = [
 
     format_lazy(
         _('You can use Privoxy by modifying your browser proxy settings to '
-          'your {box_name} hostname (or IP address) with port 8118. '
+          'your {project_name} hostname (or IP address) with port 8118. '
           'While using Privoxy, you can see its configuration details and '
           'documentation at '
           '<a href="http://config.privoxy.org">http://config.privoxy.org/</a> '
-          'or <a href="http://p.p">http://p.p</a>.'), box_name=_(cfg.box_name))
+          'or <a href="http://p.p">http://p.p</a>.'), project_name=_(cfg.project_name))
 ]
 
 service = None

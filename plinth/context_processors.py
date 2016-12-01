@@ -41,5 +41,5 @@ def common(request):
         'cfg': cfg,
         'submenu': cfg.main_menu.active_item(request),
         'active_menu_urls': active_menu_urls,
-        'box_name': _(cfg.box_name)
+        'project_name': _(cfg.project_name)
     }

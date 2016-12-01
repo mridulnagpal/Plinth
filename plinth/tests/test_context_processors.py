@@ -40,9 +40,9 @@ class ContextProcessorsTestCase(TestCase):
 
         config = response['cfg']
         self.assertIsNotNone(config)
-        self.assertEqual('FreedomBox', config.box_name)
+        self.assertEqual('FreedomBox', config.project_name)
 
-        self.assertEqual('FreedomBox', response['box_name'])
+        self.assertEqual('FreedomBox', response['project_name'])
 
         submenu = response['submenu']
         self.assertIsNone(submenu)

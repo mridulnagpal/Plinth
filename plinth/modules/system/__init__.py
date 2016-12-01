@@ -34,11 +34,11 @@ title = _('System Configuration')
 description = [
     format_lazy(
         _('Here you can administrate the underlying system of your '
-          '{box_name}.'), box_name=_(cfg.box_name)),
+          '{project_name}.'), project_name=_(cfg.project_name)),
 
     format_lazy(
-        _('The options affect the {box_name} at its most general level, '
-          'so be careful!'), box_name=_(cfg.box_name))
+        _('The options affect the {project_name} at its most general level, '
+          'so be careful!'), project_name=_(cfg.project_name))
 ]
 
 

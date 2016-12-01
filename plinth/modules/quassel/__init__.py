@@ -46,10 +46,10 @@ description = [
         _('Quassel is an IRC application that is split into two parts, a '
           '"core" and a "client". This allows the core to remain connected '
           'to IRC servers, and to continue receiving messages, even when '
-          'the client is disconnected. {box_name} can run the Quassel '
+          'the client is disconnected. {project_name} can run the Quassel '
           'core service keeping you always online and one or more Quassel '
           'clients from a desktop or a mobile can be used to connect and '
-          'disconnect from it.'), box_name=_(cfg.box_name)),
+          'disconnect from it.'), project_name=_(cfg.project_name)),
 
     _('You can connect to your Quassel core on the default Quassel port '
       '4242.  Clients to connect to Quassel from your '

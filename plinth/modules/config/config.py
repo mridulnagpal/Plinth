@@ -98,10 +98,10 @@ class ConfigurationForm(forms.Form):
         label=ugettext_lazy('Hostname'),
         help_text=format_lazy(ugettext_lazy(
             'Hostname is the local name by which other devices on the local '
-            'network can reach your {box_name}.  It must start and end with '
+            'network can reach your {project_name}.  It must start and end with '
             'an alphabet or a digit and have as interior characters only '
             'alphabets, digits and hyphens.  Total length must be 63 '
-            'characters or less.'), box_name=ugettext_lazy(cfg.box_name)),
+            'characters or less.'), project_name=ugettext_lazy(cfg.project_name)),
         validators=[
             validators.RegexValidator(
                 HOSTNAME_REGEX,
@@ -111,12 +111,12 @@ class ConfigurationForm(forms.Form):
         label=ugettext_lazy('Domain Name'),
         help_text=format_lazy(ugettext_lazy(
             'Domain name is the global name by which other devices on the '
-            'Internet can reach your {box_name}.  It must consist of labels '
+            'Internet can reach your {project_name}.  It must consist of labels '
             'separated by dots.  Each label must start and end with an '
             'alphabet or a digit and have as interior characters only '
             'alphabets, digits and hyphens.  Length of each label must be 63 '
             'characters or less.  Total length of domain name must be 253 '
-            'characters or less.'), box_name=ugettext_lazy(cfg.box_name)),
+            'characters or less.'), project_name=ugettext_lazy(cfg.project_name)),
         required=False,
         validators=[
             validators.RegexValidator(

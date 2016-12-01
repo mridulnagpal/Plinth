@@ -110,8 +110,8 @@ class State5Form(forms.Form):
     service_url = 'http://freedombox.me/cgi-bin/freedomkite.pl'
 
     code_help_text = format_lazy(
-        ugettext_lazy('The voucher you received with your {box_name} Danube '
-                      'Edition'), box_name=ugettext_lazy(cfg.box_name))
+        ugettext_lazy('The voucher you received with your {project_name} Danube '
+                      'Edition'), project_name=ugettext_lazy(cfg.project_name))
 
     code = forms.CharField(help_text=code_help_text)
 

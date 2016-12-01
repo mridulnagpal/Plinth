@@ -51,7 +51,7 @@ def index(request):
 def about(request):
     """Serve the about page"""
     context = {
-        'title': _('About {box_name}').format(box_name=_(cfg.box_name)),
+        'title': _('About {project_name}').format(project_name=_(cfg.project_name)),
         'version': __version__
     }
     return TemplateResponse(request, 'help_about.html', context)
@@ -69,7 +69,7 @@ def manual(request):
 
     return TemplateResponse(
         request, 'help_manual.html',
-        {'title': _('{box_name} Manual').format(box_name=_(cfg.box_name)),
+        {'title': _('{project_name} Manual').format(project_name=_(cfg.project_name)),
          'content': content})
 
 

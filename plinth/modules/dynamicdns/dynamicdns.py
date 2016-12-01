@@ -74,7 +74,7 @@ class ConfigureForm(forms.Form):
                       'GnuDIP server (like "example.com").')
     help_domain = format_lazy(
         ugettext_lazy('The public domain name you want to use to reach your '
-                      '{box_name}.'), box_name=ugettext_lazy(cfg.box_name))
+                      '{project_name}.'), project_name=ugettext_lazy(cfg.project_name))
     help_disable_ssl = \
         ugettext_lazy('Use this option if your provider uses self signed '
                       'certificates.')
@@ -85,13 +85,13 @@ class ConfigureForm(forms.Form):
         ugettext_lazy('Leave this field empty if you want to keep your '
                       'current password.')
     help_ip_url = format_lazy(
-        ugettext_lazy('Optional Value. If your {box_name} is not connected '
+        ugettext_lazy('Optional Value. If your {project_name} is not connected '
                       'directly to the Internet (i.e. connected to a NAT '
                       'router) this URL is used to determine the real '
                       'IP address. The URL should simply return the IP where '
                       'the client comes from (example: '
                       'http://myip.datasystems24.de).'),
-        box_name=ugettext_lazy(cfg.box_name))
+        project_name=ugettext_lazy(cfg.project_name))
     help_user = \
         ugettext_lazy('The username that was used when the account was '
                       'created.')

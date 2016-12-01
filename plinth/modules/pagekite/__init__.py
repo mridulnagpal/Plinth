@@ -41,19 +41,19 @@ title = _('Public Visibility (PageKite)')
 
 description = [
     format_lazy(
-        _('PageKite is a system for exposing {box_name} services when '
+        _('PageKite is a system for exposing {project_name} services when '
           'you don\'t have a direct connection to the Internet. You only '
-          'need this if your {box_name} services are unreachable from '
+          'need this if your {project_name} services are unreachable from '
           'the rest of the Internet. This includes the following '
-          'situations:'), box_name=_(cfg.box_name)),
+          'situations:'), project_name=_(cfg.project_name)),
 
     format_lazy(
-        _('{box_name} is behind a restricted firewall.'),
-        box_name=_(cfg.box_name)),
+        _('{project_name} is behind a restricted firewall.'),
+        project_name=_(cfg.project_name)),
 
     format_lazy(
-        _('{box_name} is connected to a (wireless) router which you '
-          'don\'t control.'), box_name=_(cfg.box_name)),
+        _('{project_name} is connected to a (wireless) router which you '
+          'don\'t control.'), project_name=_(cfg.project_name)),
 
     _('Your ISP does not provide you an external IP address and '
       'instead provides Internet connection through NAT.'),
@@ -68,8 +68,8 @@ description = [
           'by using a combination of tunnels and reverse proxies. You can '
           'use any pagekite service provider, for example '
           '<a href="https://pagekite.net">pagekite.net</a>.  In future it '
-          'might be possible to use your buddy\'s {box_name} for this.'),
-        box_name=_(cfg.box_name))
+          'might be possible to use your buddy\'s {project_name} for this.'),
+        project_name=_(cfg.project_name))
 ]
 
 

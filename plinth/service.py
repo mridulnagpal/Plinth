@@ -120,6 +120,6 @@ def init():
             is_external=True, is_enabled=True)
     Service('ssh', _('Secure Shell (SSH) Server'), ports=['ssh'],
             is_external=True, is_enabled=True)
-    Service('plinth', format_lazy(_('{box_name} Web Interface (Plinth)'),
-                                  box_name=_(cfg.box_name)),
+    Service('plinth', format_lazy(_('{project_name} Web Interface (Plinth)'),
+                                  project_name=_(cfg.project_name)),
             ports=['https'], is_external=True, is_enabled=True)

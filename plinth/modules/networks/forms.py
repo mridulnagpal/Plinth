@@ -51,11 +51,11 @@ available over this interfaces. Select Internal only for trusted networks.'),
         label=_('IPv4 Addressing Method'),
         help_text=format_lazy(
             ugettext_lazy(
-                '"Automatic" method will make {box_name} acquire '
+                '"Automatic" method will make {project_name} acquire '
                 'configuration from this network making it a client. "Shared" '
-                'method will make {box_name} act as a router, configure '
+                'method will make {project_name} act as a router, configure '
                 'clients on this network and share its Internet connection.'),
-            box_name=ugettext_lazy(cfg.box_name)),
+            project_name=ugettext_lazy(cfg.project_name)),
         choices=[('auto', _('Automatic (DHCP)')),
                  ('shared', _('Shared')),
                  ('manual', _('Manual')),
@@ -93,9 +93,9 @@ available over this interfaces. Select Internal only for trusted networks.'),
         label=_('IPv6 Addressing Method'),
         help_text=format_lazy(
             ugettext_lazy(
-                '"Automatic" methods will make {box_name} acquire '
+                '"Automatic" methods will make {project_name} acquire '
                 'configuration from this network making it a client.'),
-            box_name=ugettext_lazy(cfg.box_name)),
+            project_name=ugettext_lazy(cfg.project_name)),
         choices=[('auto', _('Automatic')),
                  ('dhcp', _('Automatic, DHCP only')),
                  ('manual', _('Manual')),

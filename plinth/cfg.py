@@ -23,7 +23,7 @@ from plinth.menu import Menu
 
 logger = logging.getLogger(__name__)
 
-box_name = None
+project_name = None
 root = None
 file_root = None
 config_dir = None
@@ -95,7 +95,7 @@ def read(file_path=None, root_directory=None):
         ('Network', 'port', 'int'),
         ('Network', 'secure_proxy_ssl_header', 'string'),
         ('Network', 'use_x_forwarded_host', 'bool'),
-        ('Misc', 'box_name', 'string'),
+        ('Misc', 'project_name', 'string'),
         ('Misc', 'danube_edition', 'bool'),
     )
 

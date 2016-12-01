@@ -37,8 +37,8 @@ description = [
         _('If your Internet provider changes your IP address periodically '
           '(i.e. every 24h), it may be hard for others to find you on the '
           'Internet. This will prevent others from finding services which are '
-          'provided by this {box_name}.'),
-        box_name=_(cfg.box_name)),
+          'provided by this {project_name}.'),
+        project_name=_(cfg.project_name)),
 
     _('The solution is to assign a DNS name to your IP address and '
       'update the DNS name every time your IP is changed by your '

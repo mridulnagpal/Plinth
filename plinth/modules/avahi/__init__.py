@@ -43,12 +43,12 @@ title = _('Service Discovery')
 description = [
     format_lazy(
         _('Service discovery allows other devices on the network to '
-          'discover your {box_name} and services running on it.  It '
-          'also allows {box_name} to discover other devices and '
+          'discover your {project_name} and services running on it.  It '
+          'also allows {project_name} to discover other devices and '
           'services running on your local network.  Service discovery is '
           'not essential and works only on internal networks.  It may be '
           'disabled to improve security especially when connecting to a '
-          'hostile local network.'), box_name=_(cfg.box_name))
+          'hostile local network.'), project_name=_(cfg.project_name))
 ]
 
 service = None
